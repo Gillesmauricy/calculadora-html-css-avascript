@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="estilocalcula.css">
+    <script src="javascript.js"></script>
+</head>
+<body >
+    <header>
+        <h1>CALCULADORA ONLINE</h1>
+    </header>
+    <main>
+        <div id="nome"> CALCULADORA ONLINE</div> <br>
+        <div id="resultado"></div>
+     <br>
+        <div id="teclas"> <br>  
+            <button onclick="apagar()"><</button>
+            <button id="b2" onclick="apagar_tudo()">C</button> <br>
+            <button id="set" onclick="clicar('7')">7 </button>
+            <button onclick="clicar('8')">8</button>
+            <button  onclick="clicar('9')">9</button>
+            <button onclick="clicar('/')">/</button>
+            <button  onclick="clicar('4')">4</button>
+            <button  onclick="clicar('5')">5</button>
+            <button  onclick="clicar('6')">6</button>
+            <button onclick="clicar('*')">x</button>
+            <button  onclick="clicar('1')">1</button>
+            <button  onclick="clicar('2')">2</button>
+            <button  onclick="clicar('3')">3</button>
+            <button onclick="clicar('-')">_</button>
+            <button  onclick="clicar('0')">0</button>
+            <button onclick="clicar('.')">.</button>
+            <button onclick="resultado()">=</button>
+            <button onclick="clicar('+')">+</button>
+            
+            
+
+        </div>
+    </main>
+    <footer><h1>Site Feito Por Gilles Marinho</h1></footer>
+    
+</body>
+</html>

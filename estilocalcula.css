@@ -1,0 +1,81 @@
+header {
+    text-align: center;
+}
+main {
+    height: 510px;
+    width: 450px;
+    background-color: rgba(93, 119, 232, 0.468);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px ;
+    padding: 10px ;
+    border: 2px solid rgba(0, 0, 0, 0.613);
+}
+#nome {
+    background-color: blue;
+    display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 20px;
+  height: 40px;
+  color: white;
+  font-size: 28px;
+
+}
+#resultado {
+    background-color: rgba(234, 233, 233, 0.861);
+    border-radius: 10px;
+    border: 2px solid rgba(51, 36, 214, 0.718);
+    padding-bottom: 28px;
+    padding-top: 15px;
+    font-size: 28px;
+    text-align: right;
+    
+
+}
+#teclas {
+    width: 450px;
+    height: 330px;
+    background-color: rgba(234, 233, 233, 0.861);
+    border-radius: 10px;
+    text-align: center;
+   
+    
+    
+}
+#teclas > button {
+    width: 90px;
+    height: 50px;
+    border-radius: 5px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+.tecla {
+    position: absolute;
+    top: 245px;
+    right: 143px;
+    background-color:rgba(0, 0, 255, 0.549);
+    color: white;
+    font-size: 30px;
+    
+}
+button:hover {
+    background-color: aqua;
+}
+#b2 {
+    background-color: rgba(63, 42, 165, 0.672);
+    color: white;
+    font-size: 28px;
+}
+#b2:hover{
+    background-color: rgba(63, 42, 165, 0.858);
+}
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+
+}
