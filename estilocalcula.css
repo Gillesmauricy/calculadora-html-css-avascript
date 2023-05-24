@@ -1,7 +1,5 @@
-.tudo {
-    max-width: 1000px;
-  width: 100%;
-  height: auto;
+body {
+    min-height: 100vh;
 }
 header {
     text-align: center;
